@@ -5,7 +5,7 @@ The Woof app is a list of dog photos with information about them including their
 age, and favorite activity. This app also uses Material Design to create a beautiful app
 experience for the user.
 
-Introduction
+Screen-Shot
 ------------
 ![img.png](img.png)
 ![img_1.png](img_1.png)

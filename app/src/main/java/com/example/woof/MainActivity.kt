@@ -68,7 +68,8 @@ fun WoofApp() {
             WoofTopAppBar()
         }
     ) {
-        LazyColumn(modifier = Modifier.background(MaterialTheme.colors.background)) {
+        LazyColumn(modifier =
+        Modifier.background(MaterialTheme.colors.background)) {
             items(dogs) {
                 DogItem(dog = it)
             }

@@ -122,8 +122,7 @@ fun WoofTopAppBar(modifier: Modifier = Modifier) {
             painter = painterResource(R.drawable.ic_woof_logo),
             /*
              * Content Description is not needed here - image is decorative, and setting a null
-             * content description allows accessibility services to skip this element during
-             * navigation.
+             * content description allows accessibility services to skip this element during  naigation.
              */
             contentDescription = null
         )

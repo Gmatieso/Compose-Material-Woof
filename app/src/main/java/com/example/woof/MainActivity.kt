@@ -87,7 +87,7 @@ fun WoofApp() {
 fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
     //update modifier and adding padding
     Card(
-        elevation = 4.dp,
+        elevation = 4.dp,  //elevation
         modifier = modifier.padding(8.dp)
     ) {
             Row(

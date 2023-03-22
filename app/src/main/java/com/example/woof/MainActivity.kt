@@ -85,6 +85,7 @@ fun WoofApp() {
  */
 @Composable
 fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
+    //update modifier and adding padding
     Card(
         elevation = 4.dp,
         modifier = modifier.padding(8.dp)

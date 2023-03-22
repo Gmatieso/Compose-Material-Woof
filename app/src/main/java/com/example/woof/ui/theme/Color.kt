@@ -42,3 +42,13 @@ val Grey100 = Color(0xFFF1F3F4)
 val Cyan900 = Color(0xFF007B83)
 val Cyan700 = Color(0xFF129EAF)
 
+private val DarkColorPalette = darkColors(
+    background = Cyan900,
+    surface = Cyan700,
+    onSurface = White,
+    primary = Grey900,
+    onPrimary = White,
+    secondary = Grey100
+)
+
+

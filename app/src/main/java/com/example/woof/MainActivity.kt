@@ -15,6 +15,7 @@
  */
 package com.example.woof
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -61,6 +62,7 @@ class MainActivity : ComponentActivity() {
 /**
  * Composable that displays an app bar and a list of dogs.
  */
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun WoofApp() {
     Scaffold(

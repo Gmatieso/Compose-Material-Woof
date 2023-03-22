@@ -167,15 +167,16 @@ fun DogIcon(@DrawableRes dogIcon: Int, modifier: Modifier = Modifier) {
 @Composable
 fun DogInformation(@StringRes dogName: Int, dogAge: Int, modifier: Modifier = Modifier) {
     Column {
+        //Since dogName and dogAge are on top of Surface their color defaults to onSurface
         Text(
             text = stringResource(dogName),
-            color = MaterialTheme.colors.onSurface,
+//            color = MaterialTheme.colors.onSurface,
             style = MaterialTheme.typography.h2,
             modifier = modifier.padding(top = 8.dp)
         )
         Text(
             text = stringResource(R.string.years_old, dogAge),
-            color = MaterialTheme.colors.onSurface,
+//            color = MaterialTheme.colors.onSurface,
             style = MaterialTheme.typography.body1
         )
     }

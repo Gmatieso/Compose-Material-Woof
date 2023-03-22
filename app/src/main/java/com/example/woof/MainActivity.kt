@@ -109,10 +109,11 @@ fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
 @Composable
 fun WoofTopAppBar(modifier: Modifier = Modifier) {
     Row(
+        //make the top bar beautiful
         modifier = modifier
-            .fillMaxWidth()
+            .fillMaxWidth()  //fill the max width of the Row
             .background(color = MaterialTheme.colors.primary),
-        verticalAlignment = Alignment.CenterVertically
+        verticalAlignment = Alignment.CenterVertically  //vertically centers all items in a row
     ) {
         Image(
             modifier = modifier

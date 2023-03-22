@@ -26,15 +26,6 @@ val Grey700 = Color(0xFF5F6368)
 val Green50 = Color(0xFFE6F4EA)
 val Green100 = Color(0xFFCEEAD6)
 
-private val LightColorPalette = lightColors(
-    background = Green100,
-    surface = Green50,
-    onSurface = Grey900,
-    primary = Grey50,
-    onPrimary = Grey900,
-    secondary = Grey700
-)
-
 
 //Dark Theme
 val White = Color(0xFFFFFFFF)
@@ -42,13 +33,5 @@ val Grey100 = Color(0xFFF1F3F4)
 val Cyan900 = Color(0xFF007B83)
 val Cyan700 = Color(0xFF129EAF)
 
-private val DarkColorPalette = darkColors(
-    background = Cyan900,
-    surface = Cyan700,
-    onSurface = White,
-    primary = Grey900,
-    onPrimary = White,
-    secondary = Grey100
-)
 
 

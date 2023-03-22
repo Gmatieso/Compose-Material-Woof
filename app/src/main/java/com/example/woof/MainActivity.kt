@@ -33,7 +33,8 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.runtime.Composable
+import androidx.compose.material.icons.filled.ExpandMore
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -84,6 +85,8 @@ fun WoofApp() {
  */
 @Composable
 fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
+    var expanded by remember { mutableStateOf(false) }
+
     //update modifier and adding padding
     Card(
         elevation = 4.dp,  //elevation
@@ -97,6 +100,10 @@ fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
             ) {
                 DogIcon(dog.imageResourceId)
                 DogInformation(dog.name, dog.age)
+                DogItemButton(
+                    expanded = expanded,
+                    onClick = { /*TODO*/ }
+                )
         }
     }
 }

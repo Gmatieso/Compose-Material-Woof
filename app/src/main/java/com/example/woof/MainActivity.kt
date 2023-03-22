@@ -94,7 +94,7 @@ fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(8.dp)
-                    .background(MaterialTheme.colors.surface)
+//                    .background(MaterialTheme.colors.surface) since a card is a surface we have explicitly set color for the surface
             ) {
                 DogIcon(dog.imageResourceId)
                 DogInformation(dog.name, dog.age)

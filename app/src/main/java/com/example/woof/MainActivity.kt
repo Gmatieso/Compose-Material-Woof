@@ -103,9 +103,8 @@ fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
                 expanded = expanded,
                 onClick = { /*TODO*/ }
             )
-            DogHobby(dog.hobbies)
-
         }
+            DogHobby(dog.hobbies)
     }
     }
 }

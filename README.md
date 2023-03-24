@@ -8,8 +8,8 @@ experience for the user.
 
 Screen-Shot
 ------------
-![img_2.png](img_2.png) 
-![img_3.png](img_3.png)
+![img_6.png](img_6.png) 
+![img_7.png](img_7.png)
 Pre-requisites
 --------------
 

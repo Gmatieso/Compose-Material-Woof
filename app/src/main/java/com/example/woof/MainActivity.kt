@@ -89,20 +89,24 @@ fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
         elevation = 4.dp,  //elevation
         modifier = modifier.padding(8.dp)
     ) {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(8.dp)
+        Column() {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(8.dp)
 //                    .background(MaterialTheme.colors.surface) since a card is a surface we have explicitly set color for the surface
-            ) {
-                DogIcon(dog.imageResourceId)
-                DogInformation(dog.name, dog.age)
-                Spacer(Modifier.weight(1f))
-                DogItemButton(
-                    expanded = expanded,
-                    onClick = { /*TODO*/ }
-                )
+        ) {
+            DogIcon(dog.imageResourceId)
+            DogInformation(dog.name, dog.age)
+            Spacer(Modifier.weight(1f))
+            DogItemButton(
+                expanded = expanded,
+                onClick = { /*TODO*/ }
+            )
+            DogHobby(dog.hobbies)
+
         }
+    }
     }
 }
 

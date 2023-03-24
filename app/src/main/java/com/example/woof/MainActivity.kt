@@ -133,7 +133,18 @@ fun DogHobby(@StringRes dogHobby: Int, modifier: Modifier = Modifier) {
             bottom = 16.dp,
             end = 16.dp
         )
-    ) { }
+    ) {
+        //display two composable texts
+        Text(
+            text = stringResource(R.string.about),
+            style = MaterialTheme.typography.h3,
+        )
+        Text(
+            text = stringResource(dogHobby),
+            style = MaterialTheme.typography.body1,
+        )
+
+    }
 }
 
 
